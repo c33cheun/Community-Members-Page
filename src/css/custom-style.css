@@ -4,8 +4,8 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-f-light {
-  font-family: "Open Sans Light", sans-serif;
+.f-light {
+  font-family: 'Open Sans Light', sans-serif;
 }
 
 light-blue {
@@ -34,6 +34,11 @@ a{
   background: #000;
   color: #FFF;
   text-align: center;
+}
+
+.community-members-banner {
+  background-image: url("../assets/community-members-background.jpg");
+  background-size: cover;
 }
 
 .navigation a:hover {
