@@ -1,9 +1,15 @@
+/* GLOBAL CSS CUSTOM VALUES */
+
 body {
   font-family: "Open Sans", sans-serif;
 }
 
 f-light {
   font-family: "Open Sans Light", sans-serif;
+}
+
+light-blue {
+  color: rgb(74, 144, 226);
 }
 
 h1 {
@@ -28,4 +34,21 @@ a{
   background: #000;
   color: #FFF;
   text-align: center;
+}
+
+.navigation a:hover {
+  color: rgb(74, 144, 226);
+}
+
+.searchTerm {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.searchTerm input:focus {outline: none; }
+
+.search-icon {
+  background-image: url("../assets/search-icon.png");
+  background-size: cover;
 }
