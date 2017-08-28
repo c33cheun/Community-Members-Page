@@ -37,8 +37,9 @@ a{
 }
 
 .community-members-banner {
-  background-image: url("../assets/community-members-background.jpg");
+  background: linear-gradient(0deg,rgba(38,32,23,0.5),rgba(38,32,23,0.5)), url("../assets/community-members-background.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .navigation a:hover {
@@ -55,5 +56,10 @@ a{
 
 .search-icon {
   background-image: url("../assets/search-icon.png");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.loadMoreButton {
+  background-color: rgb(74, 144, 226);
 }
