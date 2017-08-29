@@ -42,9 +42,14 @@ a{
 }
 
 .footer {
-  background: #000;
-  color: #FFF;
-  text-align: center;
+  background: rgb(23, 23, 23);
+}
+
+.footer-logo {
+  background-image: url("../assets/community-footer-logo.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .community-members-banner {
