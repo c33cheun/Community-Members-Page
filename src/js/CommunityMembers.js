@@ -6,7 +6,7 @@ class CommunityMembers extends Component {
     var peopleContent = [];
     for (var i = 0; i < people.length; i++) {
       peopleContent.push(
-          <div key={i} className="w-50 w-20-l fl">
+          <div key={i} className="w-50 w-20-l mw5 h5 fl">
             <PersonProfile picture={people[i].picture} name={people[i].name} email={people[i].email}/>
           </div>
       )
@@ -16,7 +16,7 @@ class CommunityMembers extends Component {
 
   render() {
     return (
-      <div className="items-center flex justify-center w-100 tc flex-row">
+      <div className="items-center flex justify-center w-100 tc flex-row mw6 mw8-l">
         <div>
           {this.renderPeople(this.props.people)}
         </div>
