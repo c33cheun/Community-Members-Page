@@ -5,8 +5,8 @@ class Banner extends Component {
     return (
       <div className={this.props.bannerStyle + " h5 white items-center flex justify-center w-100 tc"}>
         <div>
-          <div className="f1 fw3">Welcome to the Community</div>
-          <div className="f3">Share, connect and collaborate</div>
+          <div className="f-4 fw3">Welcome to the Community</div>
+          <div className="f2 tracked-tight">Share, connect and collaborate</div>
         </div>
       </div>
     );

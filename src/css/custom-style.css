@@ -13,7 +13,11 @@ body {
 }
 
 .light-grey {
-  color: rgb(149, 149, 149);
+  color: rgb(111, 111, 111);
+}
+
+.f-4 {
+  font-size: 4rem;
 }
 
 button {
@@ -44,9 +48,10 @@ a{
 }
 
 .community-members-banner {
-  background: linear-gradient(0deg,rgba(38,32,23,0.5),rgba(38,32,23,0.5)), url("../assets/community-members-background.jpg");
+  background: linear-gradient(0deg,rgba(40,40,40,0.7),rgba(40,40,40,0.7)), url("../assets/community-members-background.jpg");
   background-size: cover;
   background-position: center;
+  filter: contrast(120%) brightness(110%);
 }
 
 .navigation a:hover {
