@@ -32,8 +32,8 @@ class CommunityMembersWrapper extends Component {
     return (
       <div className="pv4 items-center flex justify-center w-100 tc">
         <div>
-          <div className="f1 fw3 pb4">Members</div>
-          <div className="pb5">
+          <div className="f3 f1-l fw3 pb4">Members</div>
+          <div className="pb2 pb5-l">
             <CommunityMembers people={this.state.users} />
           </div>
           <div>

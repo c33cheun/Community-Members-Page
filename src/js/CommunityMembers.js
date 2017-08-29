@@ -6,7 +6,7 @@ class CommunityMembers extends Component {
     var peopleContent = [];
     for (var i = 0; i < people.length; i++) {
       peopleContent.push(
-          <div key={i} className="w-20 fl">
+          <div key={i} className="w-50 w-20-l fl">
             <PersonProfile picture={people[i].picture} name={people[i].name} email={people[i].email}/>
           </div>
       )
