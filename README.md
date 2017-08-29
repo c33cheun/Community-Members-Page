@@ -61,8 +61,10 @@ Another design decision I made was to rewrite the included apiClient.js. The ini
 However, I had trouble integrating Mootools into my ReactJS application. As a result, I decided to rewrite the apiClient.js file using ECMAScript 6
 JavaScript classes. In doing this, I made the assumption that it was allowed to rewrite the apiClient file.
 
-Lastly, there are some slight font and sizing differences between the mockup and the final product. While implementing the mockup, I reasoned that
-while a mockup is the intended end result, it's still a mockup, and lacks the dynamic rendering and interactivity of a webpage. As long as differences between the two are not substantial, and in a real project, the product owner gives the final say, then making the actual webpage exact to the mockup is fine. That said, it is important that sizing, positioning and attention to detail is followed, but I don't believe the webpage is expected to be pixel perfect. 
+There are some slight font and sizing differences between the mockup and the final product. While implementing the mockup, I reasoned that
+while a mockup is the intended end result, it's still a mockup, and lacks the dynamic rendering and interactivity of a webpage. As long as differences between the two are not substantial, and in a real project, the product owner gives the final say, then making the actual webpage exact to the mockup is fine. That said, it is important that sizing, positioning and attention to detail is followed, but I don't believe the webpage is expected to be pixel perfect.
+
+Lastly, I took liberties in the implementation of the mobile version of UI components since there was no mockup. One particular problem area was the mobile version of the header menu. I decided to go with a drop down, however, I am displeased with the final result.
 
 ## Folder Structure
 

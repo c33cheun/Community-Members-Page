@@ -15,7 +15,7 @@ class Header extends Component {
           <li className="pl2 pl4-l pv2 pv4-l"><a href="#" className="f7 f5-l fw5 ttu no-underline">Members</a></li>
           <Search />
         </div>
-        <div className="db dn-l center-ns">
+        <div className="dib dn-l flex flex-row">
           <select className="f5 fw5 ttu no-underline" onchange="if (this.value) window.location.href = this.value;">
             <option className="f5 fw5 ttu no-underline" value="#">Home</option>
             <option className="f5 fw5 ttu no-underline" value="#">Dashboard</option>
