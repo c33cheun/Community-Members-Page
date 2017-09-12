@@ -1,4 +1,4 @@
-This webpage project was built as part of a take home front-end coding challenge for Igloo Software by Christopher Cheung.
+This webpage project was built as part of a take home front-end coding challenge by Christopher Cheung.
 
 ## Table of Contents
 
